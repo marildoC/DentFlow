@@ -1,4 +1,4 @@
-# DentFlow — Clinical Operations Platform
+# DentFlow — Clinical Operations Platform 
 
 DentFlow is a desktop clinical operations platform designed around the idea that a dental practice is not a set of isolated records, but a connected sequence of decisions, interactions, and operational states.
 
