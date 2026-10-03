@@ -1,0 +1,26 @@
+﻿ALTER TABLE Patients
+ADD CONSTRAINT DF_Patients_Gender DEFAULT 'Unknown' FOR Gender; 
+
+
+ALTER TABLE Patients
+ADD CONSTRAINT DF_Patients_Allergies DEFAULT 'None' FOR Allergies;
+
+
+ALTER TABLE Patients
+ADD CONSTRAINT DF_Patients_Treated DEFAULT 'No Info' FOR Treated;
+
+
+ALTER TABLE Patients
+ALTER COLUMN Phone VARCHAR(15) NOT NULL;
+
+ALTER TABLE Patients
+ALTER COLUMN Email VARCHAR(255) NOT NULL; 
+
+ALTER TABLE Patients
+ADD CONSTRAINT chk_Email CHECK (Email LIKE '%_@__%.__%');
+
+ALTER TABLE Patients
+ADD CONSTRAINT chk_DOB CHECK (DOB <= GETDATE());
+
+
+
