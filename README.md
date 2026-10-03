@@ -1,17 +1,19 @@
-# DentFlow
+# DentFlow — Clinical Operations Platform
 
-DentFlow is a desktop **dental practice management system** designed to bring the operational workflow of a clinic into a unified environment. It connects patient records, clinical staff, appointments, treatments, and financial activity through a structured interface centered around day-to-day practice operations.
+DentFlow is a desktop clinical operations platform designed around the idea that a dental practice is not a set of isolated records, but a connected sequence of decisions, interactions, and operational states.
 
-Built with **C# and .NET 8 Windows Forms**, the application uses SQL Server for persistent clinic data and provides dedicated workflows for managing patients, dentists, appointment scheduling, treatment records, clinic configuration, and revenue monitoring.
+The system brings patient data, practitioners, appointments, treatments, clinic configuration, and financial activity into a unified workflow backed by persistent relational data. Instead of treating each function independently, DentFlow keeps the operational context of the practice connected across scheduling, treatment delivery, patient management, and administrative oversight.
 
-## Core Capabilities
+Built with **C# and .NET 8 Windows Forms**, with **SQL Server** as the persistence layer, the application combines a dashboard-driven interface with structured clinical and administrative workflows.
 
-- Patient and clinical record management
-- Dentist and staff information management
-- Appointment scheduling and lifecycle handling
-- Treatment recording and follow-up
-- Revenue and operational overview
-- Clinic configuration and dashboard-based navigation
-- Database-backed desktop workflow
+## Operational Model
 
-DentFlow explores the design of an integrated clinical information system where administrative and treatment-related processes remain connected within a single operational workspace.
+DentFlow organizes the practice around several connected domains:
+
+- patient and practitioner records
+- appointment lifecycle and scheduling
+- treatment execution and history
+- clinic configuration and access
+- revenue and operational visibility
+
+The result is a compact clinical information system focused on **workflow continuity, structured data, and centralized operational control**.
